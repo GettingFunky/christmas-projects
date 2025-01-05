@@ -1,14 +1,6 @@
-package gr.christmas;
-
-import java.io.File;
-import java.io.IOException;
-import java.io.PrintStream;
-import java.nio.charset.StandardCharsets;
-import java.util.Arrays;
-import java.util.Scanner;
-
 /**
- * Project 01 out of a total of 5 Projects
+ * Project 01 - Integer Filtering
+ * (out of a total of 5 Projects)
  *
  * This Java program reads a list of integers (between 7 and 49 numbers with values from 1 to 49)
  * from a file and stores them in an array. After sorting the array, the program generates all possible
@@ -34,6 +26,15 @@ import java.util.Scanner;
  *
  * Author: [Vaggelis Theodorakis]
  */
+package gr.christmas;
+
+import java.io.File;
+import java.io.IOException;
+import java.io.PrintStream;
+import java.nio.charset.StandardCharsets;
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class Project01 {
 
     public static void main(String[] args) {
