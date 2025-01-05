@@ -1,3 +1,12 @@
+package gr.christmas;
+
+import java.io.File;
+import java.io.IOException;
+import java.io.PrintStream;
+import java.nio.charset.StandardCharsets;
+import java.util.Arrays;
+import java.util.Scanner;
+
 /**
  * Project 01 - Integer Filtering
  * (out of a total of 5 Projects)
@@ -26,15 +35,6 @@
  *
  * Author: [Vaggelis Theodorakis]
  */
-package gr.christmas;
-
-import java.io.File;
-import java.io.IOException;
-import java.io.PrintStream;
-import java.nio.charset.StandardCharsets;
-import java.util.Arrays;
-import java.util.Scanner;
-
 public class Project01 {
 
     public static void main(String[] args) {
@@ -45,7 +45,6 @@ public class Project01 {
             int[] inputNumbers = new int[49];
             int pivot = 0;
             int[] result = new int[GROUP_SIZE];
-            int num;
             int window;
 
             while (in.hasNextInt() && pivot <= 48) {

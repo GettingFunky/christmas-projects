@@ -1,3 +1,12 @@
+package gr.christmas;
+
+import java.io.File;
+import java.io.IOException;
+import java.io.PrintStream;
+import java.nio.charset.StandardCharsets;
+import java.util.Arrays;
+import java.util.Scanner;
+
 /**
  * Project 03 - Character Frequency Analysis
  * (out of a total of 5 Projects)
@@ -16,16 +25,8 @@
  *
  * Author: [Vaggelis Theodorakis]
  */
-package gr.christmas;
-
-import java.io.File;
-import java.io.IOException;
-import java.io.PrintStream;
-import java.nio.charset.StandardCharsets;
-import java.util.Arrays;
-import java.util.Scanner;
-
 public class Project03 {
+
     public static void main(String[] args) {
         try (
                 Scanner in = new Scanner(new File("C:/Users/User/Documents/Java_Various_Test_Files/Project03LoremIn.txt"), StandardCharsets.UTF_8);

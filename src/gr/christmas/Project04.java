@@ -1,3 +1,8 @@
+package gr.christmas;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
 /**
  * Project 04 - Tic-Tac-Toe
  * (out of a total of 5 Projects)
@@ -19,12 +24,6 @@
  *
  * Author: [Vaggelis Theodorakis]
  */
-
-package gr.christmas;
-
-import java.util.InputMismatchException;
-import java.util.Scanner;
-
 public class Project04 {
 
     static Scanner sc = new Scanner(System.in);

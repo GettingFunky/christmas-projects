@@ -1,3 +1,5 @@
+package gr.christmas;
+
 /**
  * Project 02 - Maximum Sum Subarray
  * (out of a total of 5 Projects)
@@ -19,8 +21,6 @@
  *
  * Author: [Vaggelis Theodorakis]
  */
-package gr.christmas;
-
 public class Project02 {
 
     public static void main(String[] args) {
